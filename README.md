@@ -1,4 +1,5 @@
 # Getting Started with Create React App
+<img width="960" alt="skip-selector" src="https://github.com/user-attachments/assets/19b77b63-b120-4bbd-87da-08ea3e23d8cb" />
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -44,3 +45,38 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+# Skip Selector Redesign
+
+This project is a redesigned version of the "Choose Your Skip Size" page for the company `We Want Waste`.
+
+## 🔧 Tech Stack
+
+- React + TypeScript
+- TailwindCSS
+- API: https://app.wewantwaste.co.uk/api/skips/by-location?postcode=NR32&area=Lowestoft
+
+## ✅ Features
+
+- Clean dark mode design
+- Full responsiveness (desktop & mobile)
+- Functional card selection with animations
+- API-connected dynamic skip data
+- Highlights of price, features, and permit rules
+- Improved UX with floating effects and transitions
+
+## 📦 Folder Structure
+
+- `src/components`: SkipCard, StepHeader, ContinueFooter
+- `src/pages`: SkipSelection, PermitCheck
+- `public/images/skips`: Skip images by size
+
+## 🚀 How to Run Locally
+
+```bash
+git clone https://github.com/AsmaaElb/skip-selector-redesign.git
+cd skip-selector-redesign
+npm install
+npm run dev
+
+
